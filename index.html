@@ -28,9 +28,77 @@
                     <i class="fas fa-angle-right"></i>
                 </p>
             </div>
+            <div class="search-container">
+                <i id="contact" class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="Comece uma nova conversa">
+            </div>
+            <div class="contacts-container">
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="./img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Carina Tabita</p>
+                        <p class="user-messagepreview">
+                            <i class="fas fa-check-double"></i>
+                            Te amo muito S2
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">22:40</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="./img/avatar3.png">
+                    <div class="user-info">
+                        <p class="user-name">Igor Alencar</p>
+                        <p class="user-messagepreview">
+                            Está disponível um freela?
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">12:30</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="./img/avatar4.png">
+                    <div class="user-info">
+                        <p class="user-name">Carol Tabita</p>
+                        <p class="user-messagepreview">
+                           O projeto ficou perfeito, obrigado!!
+                        </p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">08:20</p>
+                        <p class="message-pending">5</p>
+                    </div>
+                </div>
+            </div>
         </aside>
         <main class="chat-container">
-
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img src="/img/avatar2.png" class="user-photo">
+                    <p class="user-name">Carina Tabita</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-vertical"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-menssages">
+                    <p class="guest-message">Te amo muito</p>
+                    <p class="user-message">Te amo muito</p>
+                </div>
+                <div class="sendmessage-container">
+                    <i class="fas fa-grin"></i>
+                    <input id="chatmessage" type="text" name="message" class="userinput"
+                    placeholder="Digite uma mensagem">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
         </main>
     </div>
 </body>
