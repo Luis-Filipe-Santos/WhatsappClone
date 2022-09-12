@@ -162,22 +162,105 @@ ul {
     width: 50px;
 }
 
-.user-info{
-    margin-left: 80px;
-    padding-top: 10px;
-    display: inline-block;
+.user-info {
+	margin-left: 80px;
+	padding-top: 10px;
+	display: inline-block;
 }
 
-.user-info p, .messagem-info p{
-    margin: 0;
+.user-info p, .message-info p {
+	margin: 0;
 }
 
-.user-name{
-    font-size: 16px;
-    color: #000;
-    margin-bottom: 12px;
+.user-name {
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 12px;
 }
 
-.user-messagepreview{
-    font-size: 14px;
+.user-messagepreview {
+	font-size: 14px;
+	color: #454545;
+}
+
+.fa-check-double {
+	margin-right: 5px;
+	color: #4FC3F7;
+}
+
+.message-info {
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	display: inline-block;
+}
+
+.message-info .message-time {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #CCC;
+}
+
+.message-pending {
+	background-color: #09d261;
+	color: #FFF;
+	width: 19px;
+	height: 19px;
+	line-height: 19px;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 50%;
+	text-align: center;
+	float: right;
+}
+
+/* chat */
+
+.chat-container{
+	position: absolute;
+	top: 0;
+	left: 410px;
+	width: calc(100% - 410px);
+	height: 100%;
+	background-color: #ccc;
+}
+
+/* chat-navbar */
+
+.chat-navbar{
+	height: 60px;
+	background-color: #eee;
+	border-left: 1px solid #ddd;
+	padding-left: 75px;
+}
+
+.chat-navbar p{
+	margin: 0;
+}
+
+.contactinfo-container{
+	display: inline-block;
+}
+
+.contactinfo-container .user-name{
+	font-size: 16px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.chattools-container{
+	float: right;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 20px;
+}
+ 
+.chattools-container li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-size: 18px;
+	color: #80868A;
+	cursor: pointer;
 }
